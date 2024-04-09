@@ -1,16 +1,17 @@
-import Navbar from "./layouts/navbar/Navbar";
+import Hero from "./layouts/Hero";
+import Navbar from "./layouts/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="w-full min-h-screen">
       <header className="relative">
         <Navbar />
       </header>
       <main className="min-h-sreen max-w-screen-xl mx-auto">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <Hero />
       </main>
       <footer></footer>
-    </>
+    </div>
   );
 }
 

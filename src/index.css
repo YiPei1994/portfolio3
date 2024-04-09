@@ -5,6 +5,10 @@
 body {
   background-color: hsl(0 0% 3.9%);
   color: hsl(0 0% 98%);
+  background-image: url("./assets/bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg-image {
