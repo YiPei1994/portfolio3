@@ -8,7 +8,7 @@ body {
   background-image: url("./assets/bg.svg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .bg-image {
@@ -18,4 +18,16 @@ body {
     rgb(80, 202, 228) 51.8018%,
     rgb(155, 92, 255) 100%
   );
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  font-weight: 700;
+}
+p {
+  color: #d4d4d4;
+  line-height: 1.6em;
 }

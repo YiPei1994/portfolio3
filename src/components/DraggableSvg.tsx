@@ -14,16 +14,16 @@ function DraggableSvg({ src, className }: DraggbleSvgProps) {
       <motion.img
         src={src}
         alt="shape"
-        className={cn("w-1/4 absolute", className)}
+        className={cn("w-1/5 absolute cursor-grab", className)}
         drag
         whileDrag={{
           scale: 0.5,
         }}
         dragConstraints={{
-          top: -50,
-          left: -50,
-          right: 50,
-          bottom: 50,
+          top: -5,
+          left: -5,
+          right: 5,
+          bottom: 5,
         }}
         transition={{ type: "spring", duration: 0.8 }}
       />
