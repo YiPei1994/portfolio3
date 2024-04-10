@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 
 function SideSectionHeader({ children }: PropsWithChildren) {
   return (
-    <h2 className="text-4xl  flex items-center font-bold flex-wrap xl:text-5xl">
+    <h2 className="text-3xl my-[5%] flex items-center font-bold flex-wrap xl:text-5xl">
       {children}
     </h2>
   );

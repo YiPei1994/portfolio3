@@ -11,14 +11,14 @@ function HeroText() {
         </h1>
       </Reveal>
       <Reveal type="text">
-        <p className="leading-relaxed text-lg md:text-center md:w-[85%] mx-auto xl:text-3xl ">
+        <p className="text-lg md:text-center md:w-[85%] mx-auto xl:text-3xl ">
           I'm deeply enthusiastic about the ever-evolving landscape of
           technology, especially in the vibrant domains of computer science and
           programming. Each new challenge sparks my passion and drives my energy
           to explore and innovate.
         </p>
       </Reveal>
-      <Button className="uppercase text-3xl  flex gap-4">
+      <Button className="uppercase text-2xl  flex gap-4">
         <a href="./public/cv.pdf">My resume</a>
       </Button>
     </div>
