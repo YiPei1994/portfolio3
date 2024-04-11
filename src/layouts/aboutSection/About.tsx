@@ -1,4 +1,5 @@
 import SectionWrapper from "../../components/SectionWrapper";
+
 import AboutMe from "./AboutMe";
 
 function About() {

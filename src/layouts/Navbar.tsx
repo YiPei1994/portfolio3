@@ -3,7 +3,7 @@ import { links } from "../contants";
 
 function Navbar() {
   return (
-    <div className="bg-neutral-900/75 fixed px-8 py-4 top-0 left-0 z-30 w-full flex place-items-center">
+    <div className="bg-neutral-900/75 relative  py-4 top-0 left-0 z-30 w-full  flex place-items-center">
       <ul className="flex gap-2 justify-between items-center m-auto   max-w-[400px] ">
         {links.map((link, i) => (
           <li key={i}>
