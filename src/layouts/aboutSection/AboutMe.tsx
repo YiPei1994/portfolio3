@@ -12,6 +12,9 @@ function AboutMe() {
           consistently meeting and exceeding expectations.
         </p>
       </div>
+      <div>
+        <img src="/src/assets/placeholder.jpg" />
+      </div>
     </>
   );
 }
