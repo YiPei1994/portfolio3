@@ -5,7 +5,7 @@ import HeroText from "./HeroText";
 
 function Hero() {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="hero">
       <HeroImage />
       <HeroText />
     </SectionWrapper>

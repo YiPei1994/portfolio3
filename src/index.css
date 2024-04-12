@@ -24,7 +24,8 @@ h4 {
   color: white;
   font-weight: 700;
 }
-p {
+p,
+ul li {
   color: #d4d4d4;
   line-height: 1.6em;
 }

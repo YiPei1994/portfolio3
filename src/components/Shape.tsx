@@ -8,7 +8,7 @@ type ShapeProps = {
 function Shape({ type, className }: ShapeProps) {
   return (
     <img
-      className={cn("absolute", className)}
+      className={cn("absolute pointer-events-none", className)}
       src={`/src/assets/bgShape${type}.svg`}
       alt={`bgShape-${type}`}
     />
