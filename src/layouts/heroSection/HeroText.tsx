@@ -1,15 +1,20 @@
 import Button from "../../components/Button";
 import ChangingColor from "../../components/animated/ChangingTextColor";
 import Reveal from "../../components/animated/Reveal";
+import { FaFileAlt } from "react-icons/fa";
 
 function HeroText() {
   return (
     <div className="flex flex-col gap-8 xl:gap-10 justify-center items-center">
-      <Reveal type="text">
-        <h1 className="text-6xl  flex items-center font-bold flex-wrap xl:text-8xl">
-          Hi, i am <ChangingColor className="md:ml-2" text="Yi Pei Zhu" />.
-        </h1>
-      </Reveal>
+      <h1 className="text-6xl  flex items-center font-bold flex-wrap xl:text-8xl">
+        <Reveal> Hi, </Reveal>
+        <Reveal delayTime={0.35}> i am </Reveal>
+        <Reveal delayTime={0.5}>
+          <ChangingColor className="md:ml-2" text="Yi Pei Zhu" />
+        </Reveal>
+        .
+      </h1>
+
       <Reveal type="text">
         <p className="text-lg md:text-center md:w-[85%] mx-auto xl:text-2xl  ">
           I'm deeply enthusiastic about the ever-evolving landscape of
@@ -18,7 +23,8 @@ function HeroText() {
           to explore and innovate.
         </p>
       </Reveal>
-      <Button className="uppercase text-2xl  flex ">
+      <Button className="uppercase text-2xl max-md:self-start flex gap-4 items-center ">
+        <FaFileAlt className="text-white" />
         <a href="./public/cv.pdf">My resume</a>
       </Button>
     </div>

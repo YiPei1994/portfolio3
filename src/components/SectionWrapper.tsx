@@ -12,7 +12,7 @@ function SectionWrapper({ children, className, id }: SectionWrapperProps) {
     <section
       id={id}
       className={cn(
-        "w-full mt-[8%] py-4 px-6 md:p-8 lg:p-12 xl:p-16 mx-auto relative",
+        "w-full mt-[8%] py-8 px-6 md:p-8 lg:p-12 xl:p-16 mx-auto relative",
         className
       )}
     >

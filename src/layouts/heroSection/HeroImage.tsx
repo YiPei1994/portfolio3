@@ -2,7 +2,10 @@ import DraggableSvg from "../../components/animated/DraggableSvg";
 
 function HeroImage() {
   return (
-    <div className="w-full flex justify-center items-center relative h-max max-w-[500px] mx-auto mt-20 mb-10 lg:my-[5%]">
+    <div
+      id="hero"
+      className="w-full flex justify-center items-center relative h-max max-w-[500px] mx-auto mb-10 lg:my-[5%]"
+    >
       <DraggableSvg
         className="-top-10 left-32 xl:-top-[35%]"
         src="/src/assets/shape1.svg"

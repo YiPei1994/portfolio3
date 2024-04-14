@@ -5,13 +5,17 @@ import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
+import Reveal from "../../components/animated/Reveal";
 
 function Contact() {
   return (
     <SectionWrapper id="contact">
       <div className="bg-neutral-100/5 overflow-hidden rounded-xl flex items-center justify-center gap-6 xl:gap-8  flex-col  text-center py-8 relative before:content before:w-48 before:h-48 before:rounded-full before:absolute before:ring-[15px] before:ring-inset before:ring-[#50CAE4] before:-left-[100px] before:-top-[70px] after:content after:w-48 after:h-48 after:rounded-full after:absolute after:ring-[15px] after:ring-inset after:ring-[#9B5CFF] after:-right-[150px] after:-bottom-[70px] ">
         <SideSectionHeader className="flex items-center justify-center gap-4">
-          Let's <ChangingColor text="Talk!" />{" "}
+          <Reveal> Let's</Reveal>
+          <Reveal delayTime={0.4}>
+            <ChangingColor text="Talk!" />
+          </Reveal>
         </SideSectionHeader>
         <p className="text-lg md:text-center md:w-[85%] mx-auto xl:text-2xl w-4/5 lg:w-[65%]">
           Interested in working together or have a question? Feel free to reach

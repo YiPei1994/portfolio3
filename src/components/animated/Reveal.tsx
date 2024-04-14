@@ -5,7 +5,7 @@ import { cn } from "../../lib/cn";
 type RevealProps = {
   children: ReactNode;
   width?: "w-fit" | "w-full";
-  type: "text" | "block";
+  type?: "text" | "block";
   className?: string;
   delayTime?: number;
 };
