@@ -1,8 +1,16 @@
-import { PropsWithChildren } from "react";
+import { ReactNode } from "react";
+import { cn } from "../lib/cn";
 
-function SideSectionHeader({ children }: PropsWithChildren) {
+type SideSectionHeaderProps = {
+  children: ReactNode;
+  className?: string;
+};
+
+function SideSectionHeader({ children, className }: SideSectionHeaderProps) {
   return (
-    <h2 className="text-3xl my-[5%] flex items-center font-bold flex-wrap lg:text-5xl">
+    <h2
+      className={cn("text-3xl my-6 lg:my-8  font-bold  lg:text-5xl", className)}
+    >
       {children}
     </h2>
   );

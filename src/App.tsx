@@ -1,5 +1,6 @@
 import Shape from "./components/Shape";
 import About from "./layouts/aboutSection/About";
+import Contact from "./layouts/contact/Contact";
 import Hero from "./layouts/heroSection/Hero";
 import Navbar from "./layouts/Navbar";
 
@@ -27,6 +28,7 @@ function App() {
         /> */}
         <Hero />
         <About />
+        <Contact />
       </main>
       <footer></footer>
     </div>
