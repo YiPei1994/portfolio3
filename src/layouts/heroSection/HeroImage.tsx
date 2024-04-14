@@ -1,4 +1,4 @@
-import DraggableSvg from "../../components/DraggableSvg";
+import DraggableSvg from "../../components/animated/DraggableSvg";
 
 function HeroImage() {
   return (

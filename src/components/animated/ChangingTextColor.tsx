@@ -5,7 +5,7 @@ import {
   motion,
 } from "framer-motion";
 import { useEffect } from "react";
-import { cn } from "../lib/cn";
+import { cn } from "../../lib/cn";
 
 const colors = ["#FFE074", "#50CAE4", "#9B5CFF"];
 

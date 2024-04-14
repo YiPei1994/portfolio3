@@ -1,15 +1,16 @@
 import { ReactNode, useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
-import { cn } from "../lib/cn";
+import { cn } from "../../lib/cn";
 
 type RevealProps = {
   children: ReactNode;
   width?: "w-fit" | "w-full";
   type: "text" | "block";
   className?: string;
+  delayTime?: number;
 };
 
-function Reveal({ children, width, type, className }: RevealProps) {
+function Reveal({ children, width, type, className, delayTime }: RevealProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
@@ -36,7 +37,7 @@ function Reveal({ children, width, type, className }: RevealProps) {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.5, delay: 0.25 }}
+        transition={{ duration: 0.5, delay: delayTime ? delayTime : 0.25 }}
       >
         {" "}
         {children}

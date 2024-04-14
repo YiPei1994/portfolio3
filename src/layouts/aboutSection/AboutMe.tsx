@@ -2,8 +2,8 @@ import SideSectionHeader from "../../components/SideSectionHeader";
 
 function AboutMe() {
   return (
-    <div className="flex  flex-col  lg:flex-row items-center lg:items-start lg:justify-center gap-8 lg:w-fit">
-      <div className="md:w-[85%] mx-auto lg:w-3/5 md:text-center lg:text-left ">
+    <div className="flex  flex-col  lg:flex-row items-center lg:items-start lg:justify-center max-lg:gap-8 lg:w-fit">
+      <div className="md:w-[85%]  lg:w-3/5 md:text-center lg:text-left ">
         <SideSectionHeader>About Me</SideSectionHeader>
         <p className="text-lg  xl:text-2xl text-white lg:w-3/4">
           With over two years of professional experience and a self-taught

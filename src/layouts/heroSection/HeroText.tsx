@@ -1,6 +1,6 @@
 import Button from "../../components/Button";
-import ChangingColor from "../../components/ChangingTextColor";
-import Reveal from "../../components/Reveal";
+import ChangingColor from "../../components/animated/ChangingTextColor";
+import Reveal from "../../components/animated/Reveal";
 
 function HeroText() {
   return (

@@ -1,4 +1,4 @@
-import ChangingColor from "../../components/ChangingTextColor";
+import ChangingColor from "../../components/animated/ChangingTextColor";
 import SectionWrapper from "../../components/SectionWrapper";
 import SideSectionHeader from "../../components/SideSectionHeader";
 import { MdEmail } from "react-icons/md";
