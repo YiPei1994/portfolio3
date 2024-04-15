@@ -28,3 +28,14 @@ export const freetimeSkills = [
   "dockers",
   "sql",
 ];
+
+export const projects = [
+  {
+    title: "Honey Bee",
+    description: "Static website for local bee community.",
+    usedTechs: ["nextjs", "tailwind", "typescript", "figma"],
+    web: "https://honeybee-gilt.vercel.app/",
+    github: "https://github.com/YiPei1994/honeybee",
+    content: "./src/assets/projectImages/honey_bee.svg",
+  },
+];

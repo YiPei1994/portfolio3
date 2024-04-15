@@ -2,6 +2,8 @@ import SectionWrapper from "../../components/SectionWrapper";
 import SideSectionHeader from "../../components/SideSectionHeader";
 import ChangingColor from "../../components/animated/ChangingTextColor";
 import Reveal from "../../components/animated/Reveal";
+import { projects } from "../../contants";
+import Work from "./Work";
 
 function MyWork() {
   return (
@@ -15,7 +17,11 @@ function MyWork() {
           </Reveal>
         </SideSectionHeader>
       </div>
-      <div className="bg-neutral-100/5 py-8 rounded-xl"></div>
+      <div className="bg-neutral-100/5 py-8 rounded-xl group border  border-transparent hover:border-neutral-400/25 duration-300 transition-all">
+        {projects.map((project, i) => (
+          <Work key={i} project={project} />
+        ))}
+      </div>
     </SectionWrapper>
   );
 }

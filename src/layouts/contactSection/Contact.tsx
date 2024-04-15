@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import Reveal from "../../components/animated/Reveal";
+import Link from "../../components/Link";
 
 function Contact() {
   return (
@@ -33,28 +34,16 @@ function Contact() {
         </a>
 
         <div className="flex justify-center items-center gap-8 w-full">
-          <a
-            href="https://github.com/YiPei1994"
-            target="_blank"
-            className=" p-4 font-bold  rounded-xl border border-neutral-400/25 bg-black text-2xl"
-          >
+          <Link link="https://github.com/YiPei1994">
             <FaGithubSquare />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/yipeizhu"
-            target="_blank"
-            className="p-4 font-bold  rounded-xl border border-neutral-400/25 bg-black text-2xl"
-          >
+          </Link>
+          <Link link="https://www.linkedin.com/in/yipeizhu">
             <FaLinkedin />
-          </a>
+          </Link>
 
-          <a
-            href="https://www.facebook.com/yeipei.zhu"
-            target="_blank"
-            className=" p-4 font-bold  rounded-xl border border-neutral-400/25 bg-black text-2xl"
-          >
+          <Link link="https://www.facebook.com/yeipei.zhu">
             <FaFacebookSquare />
-          </a>
+          </Link>
         </div>
       </div>
     </SectionWrapper>
