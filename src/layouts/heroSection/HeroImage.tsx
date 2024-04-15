@@ -8,13 +8,13 @@ function HeroImage() {
     >
       <DraggableSvg
         className="-top-10 left-32 xl:-top-[35%]"
-        src="/src/assets/shape1.svg"
+        src="/public/web/shape1.svg"
       />
-      <DraggableSvg className="left-0" src="/src/assets/shape2.svg" />
-      <DraggableSvg className="right-0" src="/src/assets/shape3.svg" />
+      <DraggableSvg className="left-0" src="/public/web/shape2.svg" />
+      <DraggableSvg className="right-0" src="/public/web/shape3.svg" />
 
       <img
-        src="/src/assets/emoji.svg"
+        src="/public/web/emoji.svg"
         alt="emoji"
         className="w-[50%] xl:hover:scale-125 z-20 transition-all duration-300 cursor-pointer"
       />

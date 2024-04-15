@@ -36,6 +36,6 @@ export const projects = [
     usedTechs: ["nextjs", "tailwind", "typescript", "figma"],
     web: "https://honeybee-gilt.vercel.app/",
     github: "https://github.com/YiPei1994/honeybee",
-    content: "./src/assets/projectImages/honey_bee.svg",
+    content: "./public/projectImages/honey_bee.svg",
   },
 ];

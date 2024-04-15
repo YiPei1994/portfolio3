@@ -38,7 +38,7 @@ function Work({ project }: WorkProps) {
               <li className="w-6 h-6 flex items-center" key={i}>
                 <img
                   className="w-full h-auto"
-                  src={`/src/assets/techsImages/${techs}.png`}
+                  src={`/public/techsImages/${techs}.png`}
                   alt={`icon_${techs}`}
                 />
               </li>

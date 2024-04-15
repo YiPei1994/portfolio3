@@ -25,7 +25,7 @@ function AboutMe() {
       <div className="my-8 flex max-w-[300px] justify-center items-center relative before:block before:absolute before:-inset-1  before:left-[10%] -z-10 before:-top-[4%] before:-bottom-[4%] before:border before:border-neutral-400">
         <img
           className="max-w-[90%] max-h-[90%] m-auto z-10"
-          src="/src/assets/placeholder.jpg"
+          src="/public/web/placeholder.jpg"
         />
       </div>
     </div>
