@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import SkillSingle from "./SkillSingle";
 
 type SkillsWrapperProps = {
-  skills: string[];
+  skills: { name: string; style: string }[];
   children: ReactNode;
 };
 
@@ -15,7 +15,7 @@ function SkillsWrapper({ skills, children }: SkillsWrapperProps) {
       </h2>
       <ul>
         {skills.map((skill, i) => (
-          <SkillSingle key={i} skill={skill} />
+          <SkillSingle key={i} skill={skill.name} />
         ))}
       </ul>
     </div>

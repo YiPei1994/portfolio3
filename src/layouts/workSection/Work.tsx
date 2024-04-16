@@ -25,20 +25,18 @@ function Work({ project }: WorkProps) {
           />
         </a>
       </div>
-      <div className="p-4 md:p-6 lg:p-8">
+      <div className="p-4 md:p-6 lg:p-8 lg:w-2/5">
         <div className="flex flex-col gap-8 lg:gap-8">
           <h2 className="text-2xl  flex items-center font-bold flex-wrap xl:text-4xl">
             {project.title}
           </h2>
-          <p className="text-lg  xl:text-2xl  lg:w-3/4">
-            {project.description}
-          </p>
+          <p className="text-lg  xl:text-2xl">{project.description}</p>
           <ul className="flex items-center flex-wrap gap-6">
             {project.usedTechs.map((techs, i) => (
               <li className="w-6 h-6 flex items-center" key={i}>
                 <img
                   className="w-full h-auto"
-                  src={`/public/techsImages/${techs}.png`}
+                  src={`/techsImages/${techs}.png`}
                   alt={`icon_${techs}`}
                 />
               </li>

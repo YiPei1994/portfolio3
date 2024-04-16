@@ -9,7 +9,7 @@ function Shape({ type, className }: ShapeProps) {
   return (
     <img
       className={cn("hidden xl:block absolute pointer-events-none", className)}
-      src={`/public/web/bgShape${type}.svg`}
+      src={`/bgShape${type}.svg`}
       alt={`bgShape-${type}`}
     />
   );
