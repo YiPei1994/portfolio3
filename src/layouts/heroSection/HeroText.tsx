@@ -7,7 +7,7 @@ function HeroText() {
   return (
     <div className="flex flex-col gap-8 xl:gap-10 justify-center items-center">
       <h1 className="text-6xl  flex items-center font-bold flex-wrap xl:text-8xl">
-        <Reveal> Hi, </Reveal>
+        <Reveal className="ml-2"> Hi, </Reveal>
         <Reveal delayTime={0.35}> i am </Reveal>
         <Reveal delayTime={0.5}>
           <ChangingColor className="md:ml-2" text="Yi Pei Zhu" />
@@ -25,7 +25,7 @@ function HeroText() {
       </Reveal>
       <Button className="uppercase text-2xl max-md:self-start flex gap-4 items-center ">
         <FaFileAlt className="text-white" />
-        <a href="./public/cv.pdf">My resume</a>
+        <a href="/cv.pdf">My resume</a>
       </Button>
     </div>
   );
