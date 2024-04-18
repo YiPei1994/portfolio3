@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# My Personal Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my personal portfolio, showcasing my projects, providing insights into my background, and offering contact information. This portfolio is built using React, TypeScript, and TailwindCSS.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To explore my portfolio locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate into the repository directory:
+   ```bash
+   cd <repo-directory>
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Contents
+
+### 1. Personal Projects Preview
+
+Explore a curated selection of my personal projects, each offering a glimpse into my skills and interests.
+
+### 2. About Me
+
+Learn more about my background, experiences, and aspirations, providing context to my portfolio's content.
+
+### 3. Contact Information
+
+Reach out to me through the provided contact information for inquiries, collaborations, or discussions.
+
