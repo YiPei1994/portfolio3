@@ -1,6 +1,6 @@
 import { ThemeInput } from "react-github-calendar";
 
-export const links = ["work", "about"];
+export const links = ["projects", "about"];
 
 export const explicitTheme: ThemeInput = {
   light: ["#f3e8ff", "#d8b4fe", "#a855f7", "#7e22ce", "#581c87"],
@@ -11,6 +11,14 @@ export const colorBg =
   "bg-gradient-to-r from-[#FFE074] via-[#50CAE4] to-[#9B5CFF] inline-block text-transparent bg-clip-text font-bold";
 
 export const projects = [
+  {
+    title: "The Wild Oasis",
+    description: "Fullstack web app for booking cabin in dark forest.",
+    usedTechs: ["nextjs", "tailwind", "typescript", "figma", "supabase"],
+    web: "https://the-wild-oasis-web.vercel.app/",
+    github: "https://github.com/YiPei1994/the-wild-oasis-web.git",
+    content: "/projectImages/wild_oasis.jpg",
+  },
   {
     title: "Honey Bee",
     description:
@@ -67,7 +75,7 @@ export const freetimeSkills = [
     style: "w-7 h-7 opacity-[0.15]  absolute top-[18.5%] right-[44.5%]",
   },
   {
-    name: "dockers",
+    name: "docker",
     style: "w-12 h-12 opacity-[0.57]  absolute top-[78.5%] left-[22.5%]",
   },
   {

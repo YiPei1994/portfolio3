@@ -15,7 +15,7 @@ type WorkProps = {
 
 function Work({ project }: WorkProps) {
   return (
-    <div className="p-4 md:p-6 lg:p-8 xl:p-12 flex flex-col gap-4 lg:flex-row lg:gap-12 lg:items-center">
+    <div className="group p-4 md:p-6 lg:p-8 xl:p-12 flex flex-col gap-4 lg:flex-row lg:gap-12 lg:items-center mt-[5%] bg-neutral-100/5 border  border-transparent hover:border-neutral-400/25 duration-300 transition-all">
       <div className="w-full h-full lg:w-3/5 p-4 lg:p-8 bg-neutral-400/25 rounded-xl">
         <a href={project.web} target="_blank">
           <img

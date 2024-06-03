@@ -13,11 +13,11 @@ function MyWork() {
         <SideSectionHeader className="flex-row flex gap-4">
           <Reveal>My</Reveal>
           <Reveal delayTime={0.35}>
-            <ChangingColor text="Work" />
+            <ChangingColor text="projects" />
           </Reveal>
         </SideSectionHeader>
       </div>
-      <div className="bg-neutral-100/5 py-8 rounded-xl group border  border-transparent hover:border-neutral-400/25 duration-300 transition-all">
+      <div className=" py-8 rounded-xl  ">
         {projects.map((project, i) => (
           <Work key={i} project={project} />
         ))}

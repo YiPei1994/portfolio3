@@ -25,7 +25,9 @@ function HeroText() {
       </Reveal>
       <Button className="uppercase text-2xl max-md:self-start flex gap-4 items-center ">
         <FaFileAlt className="text-white" />
-        <a href="/cv.pdf">My resume</a>
+        <a href="/cv.pdf" target="_blank">
+          My resume
+        </a>
       </Button>
     </div>
   );
